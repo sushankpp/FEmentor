@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Crimson+Text&family=Dosis:wght@200&family=Inter:wght@100&family=Lato:ital,wght@0,300;1,300;1,400&family=Lora&family=Montserrat:wght@100&family=Nunito+Sans:wght@200&family=Open+Sans:wght@300;400&family=Oswald:wght@700&family=Outfit&family=Roboto:wght@900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f3ebe4;
+}
+
+.main {
+  width: 300px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  /* align-items:stretch;
+    justify-content: stretch; */
+}
+
+.main {
+  margin-top: 5rem;
+  margin-left: 3rem;
+}
+
+.main-2 {
+  height: 620px;
+  border-radius: 10px;
+  text-align: start;
+}
+
+.main-2,
+h3,
+h1,
+p,
+button,
+s {
+  background: #fff;
+}
+
+.img {
+  background: url('./image-product-mobile.jpg') no-repeat center center/cover;
+  width: 300px;
+  height: 370px;
+  position: relative;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.head {
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: start;
+  margin-left: 20px;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin-top: 1rem;
+  text-align: start;
+  margin-left: 20px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-align: start;
+  margin-left: 20px;
+  margin-bottom: 9px;
+}
+
+.money {
+  font-family: 'Nunito Sans', sans-serif;
+  color: darkgreen;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 25px;
+}
+
+.s {
+  font-size: 10px;
+  color: black;
+  margin-left: 12px;
+}
+
+button {
+  background: darkgreen;
+  padding: 17px 85px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: 'Outfit', sans-serif;
+  margin-left: 20px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .main {
+    width: 600px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+}
+
+  .main {
+    margin-top: 8rem;
+    margin-left: 27rem;
+    margin-bottom: 12rem;
+  }
+
+  .main-2 {
+    height: 450px;
+    border-radius: 10px;
+    text-align: start;
+    border-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .mini{
+    margin-top: 1rem;
+  }
+
+  .main-2,
+  h3,
+  h1,
+  p,
+  button,
+  s {
+    background: #fff;
+    text-align: center;
+  }
+  .img {
+    background: url('./image-product-desktop.jpg') no-repeat center center/cover;
+    width: 600px;
+    height: 450px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;    
+}
+
+  .head {
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: start;
+    margin-left: 20px;
+  }
+
+  p {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    text-align: start;
+    margin-left: 20px;
+  }
+
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: start;
+    margin-left: 20px;
+    margin-bottom: 9px;
+  }
+
+  .money {
+    font-family: 'Nunito Sans', sans-serif;
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 25px;
+  }
+
+  .s {
+    font-size: 10px;
+    color: black;
+    margin-left: 12px;
+  }
+
+  button {
+    background: darkgreen;
+    padding: 15px 85px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Outfit', sans-serif;
+  }
+}
